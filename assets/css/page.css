@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.post-outer {
+  display: flex;
+  align-items: start;
+  gap: 3rem;
+}
+
+.headers {
+  flex: 0 0 10 rem;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+main {
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.85rem;
+}

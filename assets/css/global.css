@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 3rem;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+h3 {
+  font-style: italic;
+}
+
+p {
+  padding: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #6f4685;
+}

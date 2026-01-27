@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>paulo.me</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./assets/images/cube-hole.svg"
+      size="any"
+    />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/home.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <h1>PAULO P. VALDEZ</h1>
+      <img src="./assets/images/hero-image.jpg" class="hero-image" />
+      <div class="stat">
+        <i>TORONTO, ON // <span id="local-time">00:00:00</span> EST</i>
+        <div>
+          <a href="./about/index.html">[about]</a>
+          <a href="./blog/index.html">[blog]</a>
+          <a href="./assets/files/resume.pdf">[resume]</a>
+          <a href="./contact/index.html">[contact]</a>
+        </div>
+      </div>
+    </section>
+    <script type="module">
+      import { showLocalTime } from "./assets/js/local_time.js";
+      showLocalTime("local-time");
+    </script>
+    <!-- <footer> -->
+    <!--   <i>Copyright (c) 2026 Paulo Palacios Valdez. All Rights Reserved.</i> -->
+    <!-- </footer> -->
+  </body>
+</html>
