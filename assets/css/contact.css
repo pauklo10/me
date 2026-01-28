@@ -1,0 +1,25 @@
+.contact-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center; /* vertical centering */
+  justify-content: center; /* horizontal centering */
+  transform: translateY(-4rem);
+}
+
+.post-outer {
+  display: flex;
+  align-items: center; /* align columns to each other */
+  gap: 3rem;
+}
+
+.contact {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.headers {
+  flex: 0 0 10rem;
+  font-weight: bold;
+  font-style: italic;
+}

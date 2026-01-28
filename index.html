@@ -14,23 +14,25 @@
     <link rel="stylesheet" href="./assets/css/home.css" />
   </head>
   <body>
-    <section class="hero">
-      <h1>PAULO P. VALDEZ</h1>
-      <img src="./assets/images/hero-image.jpg" class="hero-image" />
-      <div class="stat">
-        <i>TORONTO, ON // <span id="local-time">00:00:00</span> EST</i>
-        <div>
-          <a href="./about/index.html">[about]</a>
-          <a href="./blog/index.html">[blog]</a>
-          <a href="./assets/files/resume.pdf">[resume]</a>
-          <a href="./contact/index.html">[contact]</a>
+    <div class="hero-wrapper">
+      <section class="hero">
+        <h1>PAULO P. VALDEZ</h1>
+        <img src="./assets/images/hero-image.jpg" class="hero-image" />
+        <div class="stat">
+          <i>TORONTO, ON // <span id="local-time">00:00:00</span> EST</i>
+          <div>
+            <a href="./about/index.html">[about]</a>
+            <a href="./blog/index.html">[blog]</a>
+            <a href="./assets/files/resume.pdf">[resume]</a>
+            <a href="./contact/index.html">[contact]</a>
+          </div>
         </div>
-      </div>
-    </section>
-    <script type="module">
-      import { showLocalTime } from "./assets/js/local_time.js";
-      showLocalTime("local-time");
-    </script>
+      </section>
+      <script type="module">
+        import { showLocalTime } from "./assets/js/local_time.js";
+        showLocalTime("local-time");
+      </script>
+    </div>
     <!-- <footer> -->
     <!--   <i>Copyright (c) 2026 Paulo Palacios Valdez. All Rights Reserved.</i> -->
     <!-- </footer> -->
